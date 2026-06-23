@@ -71,3 +71,13 @@ l9.splice(1,2)
 
 console.log(l9)
 
+
+32//
+
+
+const l10 = [1,2,[1,2]]
+
+console.log(l10.flat())
+
+
+
