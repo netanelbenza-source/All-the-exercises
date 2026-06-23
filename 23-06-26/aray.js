@@ -54,3 +54,12 @@ new_l7 = l7.reduce((acc,num) => acc + num ,0)
 console.log(new_l7 /l7.length)
 
 
+25//
+
+const l8 = [20,40,10]
+
+l8.sort((a,b) => a - b) 
+
+console.log(l8)
+
+
