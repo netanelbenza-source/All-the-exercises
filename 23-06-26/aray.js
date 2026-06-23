@@ -88,4 +88,53 @@ const newl11 = l11.filter((num) => num%2 === 0).map((num) => num * 2).reduce((ca
 
 console.log(newl11)
 
+38//
 
+
+const obj = [{ type: "fruit" }, { type: "veg" }, { type: "fruit" }]
+
+newobj = obj.reduce((acc,item) => {
+    const key = item.type;
+    if (! acc[key]){
+        acc[key] = []
+    }
+    acc[key].push(item)
+    return acc
+},{})
+
+
+
+
+
+
+39//
+
+
+// const l12 = [1,1,3,4,5,6]
+// const newl12 = l12.reduce((acc,num) =>{
+//     if (!acc.includes(num)){
+//         acc.push(num)
+
+//     }return acc
+// },[])
+
+// console.log(newl12)
+
+
+40//
+
+// const products = [
+
+//   { name: "Laptop", price: 800, inStock: true,  category: "tech"    },
+
+//   { name: "Phone",  price: 400, inStock: false, category: "tech"    },
+
+//   { name: "Shirt",  price: 50,  inStock: true,  category: "fashion" }
+
+// ];
+
+//  const newproducts = products.filter((item) => item.inStock).filter((item)=>item.price > 100).sort((a,b)=> a.price - b.price).map((item)=> item.name).join(",")
+//  console.log(newproducts)
+
+//  const newproducts = products.filter((item) => item.inStock).filter((item)=>item.price > 100).sort((a,b)=> a-b).filter((item)=> item.name).join(",")
+//  console.log(newproducts)
