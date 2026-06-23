@@ -45,5 +45,12 @@ console.log(new_l6)
 
 
 
+12//
+
+const l7 = [10, 20, 30]
+
+new_l7 = l7.reduce((acc,num) => acc + num ,0)
+
+console.log(new_l7 /l7.length)
 
 
