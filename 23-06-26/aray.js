@@ -34,6 +34,15 @@ console.log(newl5)
 
 
 
+10//
+
+const l6 = [10, 20, 30]
+
+new_l6 = l6.reduce((acc,num)=> acc * num ,1)
+
+console.log(new_l6)
+
+
 
 
 
