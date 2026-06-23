@@ -80,4 +80,12 @@ const l10 = [1,2,[1,2]]
 console.log(l10.flat())
 
 
+36//
+
+
+const l11 = [23,47,10,50,70]
+const newl11 = l11.filter((num) => num%2 === 0).map((num) => num * 2).reduce((cass ,num) => cass + num ,0)
+
+console.log(newl11)
+
 
