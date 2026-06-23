@@ -25,3 +25,16 @@ console.log(newl4)
 
 
 
+8//
+const l5 = [90,80,100,110,67]
+
+const newl5 = l5.filter((num) => num > 100).map((num) => Math.round(num * 1.18))
+
+console.log(newl5)
+
+
+
+
+
+
+
