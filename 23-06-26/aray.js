@@ -63,3 +63,11 @@ l8.sort((a,b) => a - b)
 console.log(l8)
 
 
+29//
+
+const l9 = [20,40,10,50,70]
+
+l9.splice(1,2)
+
+console.log(l9)
+
